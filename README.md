@@ -21,7 +21,7 @@ To build a fully functional and visually appealing digital clock using basic pro
 
 ## ⚙️ Technologies Used
 
-- **Language**: C
+- **Language**: C++
 - **Compiler**: Turbo C++
 - **Graphics Library**: graphics.h
 - **Platform**: DOSBox or Turbo C++ IDE
@@ -30,14 +30,14 @@ To build a fully functional and visually appealing digital clock using basic pro
 
 ## 📂 Files Included
 
-- `digital_clock.c` – Main source file with full code
+- `digital_clock.cpp` – Main source file with full code
 - `README.md` – Project documentation
 
 ---
 
 ## 🧪 How It Works
 
-1. Retrieves system time using C time functions (`time.h`)
+1. Retrieves system time using C/c++ time functions (`time.h`)
 2. Extracts hour, minute, and second
 3. Renders the time to screen using `graphics.h` functions
 4. Refreshes every second using a loop with `delay()`
